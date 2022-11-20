@@ -1,0 +1,165 @@
+body{
+  background-image: url(https://s3-ap-southeast-1.amazonaws.com/fwi-audiosermons/wp-content/uploads/20171127093937/RTG-Video-Thumbnail-bg.png);
+  
+}
+.logi{
+    text-align: center;
+    color: aliceblue;
+}
+.row{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    flex-wrap: wrap;
+    /* background-image: url(https://static.tildacdn.com/tild3836-3539-4437-b136-333239376135/Group_1656-min.png); */
+}
+
+.facts{
+    margin-bottom: 20px;
+    padding: 30px 5px;
+    background-color: #ff0000;
+    width: 25%;
+    border-radius: 10px;
+    color: wheat;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    border: 2px solid rgb(255, 94, 0);
+    transition-duration: 0.4s;
+}
+
+
+.border{
+    color:rgb(255, 115, 0);  
+  background-color: black;  
+  text-align: center;
+}
+
+
+.facts:hover{
+    transform: scale(110%) ;
+}
+
+.pipi{
+    text-align: center;
+}
+.hobi_block{
+  margin: 10px auto;  
+  width: 40%;
+  border-radius: 10px;
+  background-color: rgb(4, 0, 255);
+  display: flex;
+  flex-direction:column ;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border: 2px solid black;
+  transition-duration: 0.2s;
+}
+.hobi_text{
+    width: 80%;
+    color: blanchedalmond;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.hobi_img{
+    width: 40%;
+}
+.hobi_h1{
+    color: blanchedalmond;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.hobi_block:hover{
+    transform: scale(105%);
+    background-color: rgb(255, 251, 0);
+    border-radius: 240px;
+
+}
+.hobi_block:hover .hobi_img{
+    transform: scale(95%);
+}
+.delight{
+    text-align: center;
+    font-family: Arial;
+}
+.delight__row{
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 150px;
+
+}
+.delight__circle{
+    width: 150px;
+    height: 150px;
+    background-color: black;
+    border-radius: 50%;
+    overflow:hidden;
+}
+.delight__img{
+    width:100%;
+}
+.delight__block:hover .delight__circle{
+    animation-name: animation1;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+.delight__block:hover .delight__text{
+    animation-name: animation2;
+    animation-duration: 1s;
+    /* animation-iteration-count: 1; */
+}
+
+@keyframes animation1 {
+    0%{
+        transform:translateY(0%);
+    }
+    50%{
+        transform:translateY(-10%);
+    }
+    100%{
+        transform:translateY(0%);
+    }
+}
+@keyframes animation2 {
+    0%{
+        transform:scale(100%);
+    }
+    50%{
+        transform:scale(100%);
+    }
+    100%{
+        transform:scale(110%);
+    }
+}
+.copyright {
+    width: 740px; 
+    padding: 0 10px 10px; 
+    margin: auto; 
+    color: #000000; 
+   }
+   .copyright p { 
+    margin: 0 0 5px 170px; 
+   }
+   footer { 
+    background: url(images/grass.png) 50% 53px no-repeat; 
+    height: 80px; 
+    overflow: auto; 
+    position: relative; 
+     background: #000000; 
+  }
+  
+  .footer-bg { 
+    
+  }
+  .copyright {
+    width: 90%; 
+    padding: 0 20 10px; 
+    margin: auto; 
+    color: #ffffff;
+  }
+  .copyright p {
+    margin: 0 0 6px 170px; 
+  }
+  body{
+    padding: 0;
+    margin: 0;
+  }
